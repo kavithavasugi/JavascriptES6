@@ -1,4 +1,4 @@
-SCOPE CHAIN
+SCOPE CHAINS & Lexical Environment 
 1. Scope of a variable is directly dependent on the lexical environment.
 2. Whenever an execution context is created, a lexical environment is created. Lexical environment is the local memory along with the lexical environment of its parent. Lexical as a term means in hierarchy or in sequence.
 3. Having the reference of parent's lexical environment means, the child or the local function can access all the variables and functions defined in the memory space of its lexical parent.
